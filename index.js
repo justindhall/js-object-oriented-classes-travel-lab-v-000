@@ -33,6 +33,7 @@ class Route{
   
   estimatedTime(peak){
     if(peak)
+      return
   }
   
 }
