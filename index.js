@@ -27,5 +27,7 @@ class Route{
     let horizontalDistance = this.findAvenueIndex(this.beginningLocation.horizontal) - this.findAvenueIndex(this.endingLocation.horizontal);
     
     let verticalDistance = this.beginningLocation.vertical - this.endingLocation.vertical;
+    
+    return Math.abs()
   }
 }
