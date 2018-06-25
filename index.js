@@ -24,6 +24,6 @@ class Route{
   }
   
   blocksTravelled(){
-    let horizontalDistance = Math.abs(eastWest.indexOf(this.endin))
+    let horizontalDistance = 
   }
 }
