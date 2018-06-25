@@ -18,5 +18,6 @@ class Route{
   }
   
   blocksTravelled(){
+    let eastWest = []
   }
 }
