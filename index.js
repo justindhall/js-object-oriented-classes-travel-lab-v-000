@@ -24,6 +24,6 @@ class Route{
   }
   
   blocksTravelled(){
-    let horizontalDistance = 
+    let horizontalDistance = this.findAvenueIndex(this.beginningLocation.horizontal) - this.findAvenueIndex(this.endingLocation.horizontal);
   }
 }
