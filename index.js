@@ -17,10 +17,12 @@ class Route{
     this.endingLocation = endingLocation;
   }
   
-
+  findAvenueIndex(avenue){
+    
+  }
   
   blocksTravelled(){
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
-    let horizontalDistance = 
+    let horizontalDistance = Math.abs(eastWest.indexOf(this.endin))
   }
 }
