@@ -32,8 +32,10 @@ class Route{
   }
   
   estimatedTime(peak){
-    if(peak)
-      return
+    if(peak){
+      return blocksTravelled/2;
+    }
+  
   }
   
 }
